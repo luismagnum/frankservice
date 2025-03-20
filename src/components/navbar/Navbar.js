@@ -26,7 +26,7 @@ const Navbar = () => {
                 </span>
                 <h1 className='text-white text-xl md:text-3xl mb-2 font-bold'>Frank Perez</h1>
             </div>
-            <nav className='hidden md:flex flex-row items-center text-sky-900 text-xl ml-60 font-bold gap-6'>
+            <nav className='hidden md:flex flex-row items-center text-teal-500 text-xl ml-60 font-bold gap-6'>
                 <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer'>
                  Home
                  </Link>

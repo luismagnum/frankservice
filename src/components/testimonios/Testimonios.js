@@ -29,7 +29,7 @@ const TestimonialData = [
     {
         id: 3,
         name: "Alonso Diaz.",
-        text: "Rápidos y confiables. Me solucionaron un problema con la batería en el mismo día. Excenete atencion ¡Muy buen precio!. Lo recomiendo.",
+        text: "Rápidos y confiables. Me solucionaron un problema con la batería en el mismo día. Exelente atencion ¡Muy buen precio!.",
         imag: Imagen3,
     },
     {
@@ -84,7 +84,7 @@ const Testimonios = () => {
             <div className='bg-black/30'>
                 <div className="container">
                     <div data-aos="fade-up" className='text-center py-5 mb-12'>
-                        <h1 className='text-3xl md:text-5xl text-sky-900 font-bold'>Testimonios</h1>
+                        <h1 className='text-3xl md:text-5xl text-[#01020d] font-bold'>Testimonios</h1>
                     </div>
                     <div data-aos="zoom-in">
                         <Slider {...settings}>
