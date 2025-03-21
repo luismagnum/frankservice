@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className='w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between md:px-32 px-2 py-1 md:py-2'>
+        <div className='flex flex-row justify-between md:px-32 px-2 py-2 md:py-2'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                 <Image src='/logos.png' alt='logo' width={60} height={60}/>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-[#01020d] text-blue-400 left-0 top-11 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300 z-50`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-[#01020d] text-blue-400 left-0 top-12 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300 z-50`}>
         <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
                  Home
                  </Link>
