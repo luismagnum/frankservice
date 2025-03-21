@@ -91,7 +91,7 @@ const Testimonios = () => {
                             {TestimonialData.map(({ id, name, text, imag }) => {
                                 return (
                                     <div key={id} className='my-6'>
-                                        <div className='flex flex-col gap-6 shadow-lg py-8 px-6 mx-4 rounded-3xl bg-sky-900 mb-2'>
+                                        <div className='flex flex-col gap-6 shadow-lg py-8 px-6 mx-4 rounded-3xl bg-sky-700 mb-2'>
                                             <div className='flex flex-col items-center'>
                                                 <p className='text-xl text-white'>{text}</p>
                                             </div>

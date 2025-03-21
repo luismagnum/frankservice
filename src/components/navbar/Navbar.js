@@ -22,11 +22,11 @@ const Navbar = () => {
         <div className='flex flex-row justify-between md:px-32 px-2 py-1 md:py-2'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
-                <Image src='/logo.png' alt='logo' width={150} height={150}/>
+                <Image src='/logos.png' alt='logo' width={60} height={60}/>
                 </span>
-                <h1 className='text-white text-xl md:text-3xl mb-2 font-bold'>Frank Perez</h1>
+                <h1 className='text-white text-xl md:text-3xl ml-4 mb-2 font-bold'>Frank Perez</h1>
             </div>
-            <nav className='hidden md:flex flex-row items-center text-blue-900 text-xl ml-60 font-bold gap-6'>
+            <nav className='hidden md:flex flex-row items-center text-blue-400 !important" text-xl ml-60 font-bold gap-6'>
                 <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer'>
                  Home
                  </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-blue-900 left-0 top-20 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300 z-50`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-[#01020d] text-blue-400 left-0 top-11 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300 z-50`}>
         <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
                  Home
                  </Link>

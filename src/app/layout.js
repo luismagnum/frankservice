@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Frank Service",
+  title: "Frank Service Reparacion de celulares",
   description: "Reparacion de celulares",
 };
 

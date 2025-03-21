@@ -5,7 +5,7 @@ const Reparar = () => {
     <section className="py-12 mt-4 px-6 md:px-12 md:mx-14">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10">
         <div data-aos="fade-up" className="md:w-1/2">
-          <h2 className="text-3xl md:text-6xl font-bold text-blue-500 text-center md:text-left md:ml-20">
+          <h2 className="text-3xl md:text-6xl font-bold text-blue-400 text-center md:text-left md:ml-20">
             Servicios
           </h2>
           <ul className="mt-8 space-y-4 md:ml-20">
