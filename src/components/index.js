@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="max-w-2xl text-white mb-52 md:mb-48">
         <h2 className="text-base py-6 md:mt-0 md:text-5xl text-blue-500 md:text-white">Smartphone</h2>
         <h1 className="text-3xl md:text-8xl font-bold">
-          Frank <span className="text-teal-500">Services</span>
+          Frank <span className="text-blue-500">Services</span>
         </h1>
         <div data-aos="fade-right" className="mt-4 text-base md:text-4xl">
           Reparacion y Mantenimiento de celulares
