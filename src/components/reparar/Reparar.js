@@ -15,7 +15,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Pantallas Rotas? Display con rayas?</span>
+              <span className="text-white text-lg">Pantalla rota o rajada (Cambio de pantalla)</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -23,7 +23,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Vidrio Templado rallado o roto?</span>
+              <span className="text-white text-lg">Pantalla sin respuesta táctil (Reemplazo de digitalizador)</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -31,7 +31,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Equipos mojados? No encienden?</span>
+              <span className="text-white text-lg">Batería que se descarga rápido (Reemplazo de batería)</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -39,7 +39,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Batería dañada, No carga? Dura Poco?</span>
+              <span className="text-white text-lg">Teléfono que no carga (Cambio de puerto de carga)</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -47,15 +47,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Pin de carga? Tienes que presionarlo?</span>
-            </li>
-            <li className="flex items-center text-lg">
-              <span className="text-blue-500 text-2xl mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="size-7">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>
-              </span>
-              <span className="text-white text-lg">Periféricos? No se escucha?</span>
+              <span className="text-white text-lg">Teléfono mojado o no enciende (Limpieza interna con ultrasonido)</span>
             </li>
           </ul>
         </div>

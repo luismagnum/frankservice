@@ -34,12 +34,16 @@ export default function Home() {
       <div id="reparar">
       <Reparar />
       </div>
+      <div id="tecnico">
       <Tecnico />
+      </div>
       <Garantia />
       <Marcas />
       <Testimonios />
       <FormasPago />
+      <div id="footer">
       <Footer />
+      </div>
       <Boton />
     </main>
   );

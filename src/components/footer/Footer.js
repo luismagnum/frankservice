@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { FaFacebook, FaInstagram, } from 'react-icons/fa'
 import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 
 const section = [
@@ -62,10 +63,10 @@ const Footer = () => {
              Informacion
             </p>
             <div className='flex flex-col sm:flex-row sm:justify-center sm:items-center text-center mx-auto mt-2'>
-                <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-blue-500 hover:text-blue-900 duration-300 px-8 sm:px-16 py-2 font-[Poppins] rounded-xl md:mr-15 md:rounded-md md:text-white w-full md:w-auto min-w-[200px] mx-0 sm:mx-6">
-                <a href="https://wa.me/542984792639?text=Hola quiero un presupuesto" target="_blank" className="flex items-center justify-center space-x-2">
-                <Image src="./whatsapp-fill.svg" alt="what" width={30} height={30} className='flex-shrink-0'/>
-                <span className='font-bold sm:text-sm md:text-xl'>Contacto</span>
+                <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-blue-400 hover:bg-blue-700 duration-300 px-8 sm:px-16 py-2 font-[Poppins] rounded-xl md:mr-15 md:rounded-md md:text-white w-full md:w-auto min-w-[200px] mx-0 sm:mx-6">
+                <a href="https://wa.me/542984417477?text=Hola quiero un presupuesto" target="_blank" className="flex items-center justify-center space-x-2">
+                <IoLogoWhatsapp  alt="what" width={50} height={50} className='text-white flex-shrink-0'/>
+                <span className='font-bold text-white sm:text-sm md:text-xl'>Contacto</span>
                 </a>
                 </button>
             </div>

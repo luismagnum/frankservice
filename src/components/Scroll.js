@@ -29,7 +29,7 @@ const ScrollToTop = () => {
     isVisible && (
         <button
         onClick={scrollToTop}
-        className="fixed right-8 z-50 w-12 h-12 flex items-center justify-center bg-sky-600 text-black font-bold rounded-full shadow-lg hover:bg-blue-700 transition-colors cursor-pointer mr-1.4"
+        className="fixed right-8 z-50 w-12 h-12 flex items-center justify-center bg-sky-600 text-black font-bold rounded-full shadow-lg hover:bg-blue-700 transition-colors cursor-pointer mx-auto"
         style={{ bottom: '100px' }}
         aria-label="Volver arriba"
       >

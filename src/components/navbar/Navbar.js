@@ -28,7 +28,7 @@ const Navbar = () => {
 
         <nav className="hidden md:flex items-center gap-6 text-blue-400 text-lg font-bold">
           <Link href="/" className="hover:text-blue-500 transition">Home</Link>
-          <Link href="#mi" className="hover:text-blue-500 transition">Sobre Mi</Link>
+          <Link href="#tecnico" className="hover:text-blue-500 transition">Sobre Mi</Link>
           <Link href="#reparar" className="hover:text-blue-500 transition">Servicios</Link>
           <Link href="#footer" className="hover:text-blue-500 transition">Contacto</Link>
         </nav>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </button>
 
         <Link href="/" onClick={closeMenu} className="hover:text-blue-500 transition">Home</Link>
-        <Link href="#mi" onClick={closeMenu} className="hover:text-blue-500 transition">Sobre Mi</Link>
+        <Link href="#tecnico" onClick={closeMenu} className="hover:text-blue-500 transition">Sobre Mi</Link>
         <Link href="#reparar" onClick={closeMenu} className="hover:text-blue-500 transition">Servicios</Link>
         <Link href="#footer" onClick={closeMenu} className="hover:text-blue-500 transition">Contacto</Link>
       </div>

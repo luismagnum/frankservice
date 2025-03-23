@@ -19,7 +19,9 @@ const Tecnico = () => {
           Lo revisamos en el momento, te realizamos un diagnóstico completo y en pocas horas lo tenés como nuevo.
         </p>
         <button className="mt-6 px-6 py-3 bg-blue-400 hover:bg-blue-700 text-white font-semibold rounded-lg transition">
+        <a href="https://wa.me/542984417477?text=Hola quiero un presupuesto" target="_blank" className="flex items-center justify-center space-x-2">
           Cotizar ahora
+        </a>
         </button>
       </div>
     </div>

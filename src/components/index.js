@@ -27,9 +27,8 @@ const Hero = () => {
           Reparación y Mantenimiento de celulares
         </div>
         <a 
-          href="#contacto"
-          className="mt-6 inline-block px-6 py-3 bg-blue-400 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
-        >
+          href="https://wa.me/54298417477?text=Hola quiero un presupuesto" target="_blank" className="mt-6 inline-block px-6 py-3 bg-blue-400 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 items-center justify-center space-x-2">
+        
           Contacto
         </a>
       </div>
