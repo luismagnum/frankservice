@@ -1,4 +1,5 @@
 "use client";
+import "./globals.css";
 import { useEffect} from 'react';
 import AOS from "aos";
 import "slick-carousel/slick/slick.css";

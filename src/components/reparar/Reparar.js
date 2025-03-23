@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Reparar = () => {
   return (
-    <section className="py-12 mt-4 px-6 md:px-12 md:mx-14">
+    <section className="w-full bg-[#0d0d0d] py-12 mt-0 px-6 md:px-12 ">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10">
         <div data-aos="fade-up" className="md:w-1/2">
           <h2 className="text-3xl md:text-6xl font-bold text-blue-400 text-center md:text-left md:ml-20">

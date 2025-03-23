@@ -4,7 +4,7 @@ import { SiMercadopago } from "react-icons/si";
 
 const FormasPago = () => {
   return (
-    <section className="py-12 px-6 md:px-12">
+    <section className="bg-[#0d0d0d] py-12 px-6 md:px-12">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-blue-400 mb-8">
           Aceptamos las siguientes formas de pago

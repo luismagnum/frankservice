@@ -4,7 +4,6 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="relative w-full h-80 md:h-screen flex flex-col justify-center items-center lg:px-32 px-4">
-      {/* Imagen de fondo */}
       <div className="absolute inset-0 z-[-1]">
         <Image 
           src="/reparar.jpg"
@@ -17,7 +16,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
-      {/* Contenido */}
       <div className="max-w-2xl text-white text-center md:text-left mt-10 md:mt-0">
         <h2 className="text-base font-bold py-2 md:py-6 md:text-5xl text-white">
           ¿Que le paso a tu celular?
@@ -30,7 +28,7 @@ const Hero = () => {
         </div>
         <a 
           href="#contacto"
-          className="mt-6 inline-block px-6 py-3 bg-sky-900 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
+          className="mt-6 inline-block px-6 py-3 bg-blue-400 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
         >
           Contacto
         </a>

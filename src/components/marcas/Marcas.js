@@ -2,7 +2,7 @@ import { SiMotorola, SiSamsung, SiXiaomi, SiLg } from "react-icons/si";
 
 const Marcas = () => {
   return (
-    <section className="py-12 px-6 md:px-12">
+    <section className="bg-[#0d0d0d] py-12 px-6 md:px-12">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-blue-400 mb-8">
           Trabajamos con las siguientes marcas

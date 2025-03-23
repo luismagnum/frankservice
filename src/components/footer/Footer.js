@@ -34,7 +34,7 @@ const items = [
 
 const Footer = () => {
   return (
-    <div className='w-full mt-12 bg-[#121212] py-y px-8'>
+    <div className='w-full mt-0 bg-[#121212] py-y px-8'>
         <br></br>
         <span>
         <Image src='/logos.png' alt='logo' width={100} height={100} className='rounded-md text-center mx-auto mb-6 object-contain'/>
@@ -58,11 +58,11 @@ const Footer = () => {
             ))
         }
         <div className='col-span-2 pt-8 md:pt-2'>
-            <p className='text-blue-500 text-center font-bold uppercase'>
+            <p className='text-blue-400 text-center font-bold uppercase'>
              Informacion
             </p>
             <div className='flex flex-col sm:flex-row sm:justify-center sm:items-center text-center mx-auto mt-2'>
-                <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-sky-900 hover:text-blue-900 duration-300 px-8 sm:px-16 py-2 font-[Poppins] rounded-xl md:mr-15 md:rounded-md md:text-white w-full md:w-auto min-w-[200px] mx-0 sm:mx-6">
+                <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-blue-500 hover:text-blue-900 duration-300 px-8 sm:px-16 py-2 font-[Poppins] rounded-xl md:mr-15 md:rounded-md md:text-white w-full md:w-auto min-w-[200px] mx-0 sm:mx-6">
                 <a href="https://wa.me/542984792639?text=Hola quiero un presupuesto" target="_blank" className="flex items-center justify-center space-x-2">
                 <Image src="./whatsapp-fill.svg" alt="what" width={30} height={30} className='flex-shrink-0'/>
                 <span className='font-bold sm:text-sm md:text-xl'>Contacto</span>

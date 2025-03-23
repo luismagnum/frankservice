@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Tecnico = () => {
   return (
-    <div className="relative w-full h-[400px] flex items-center justify-center text-white text-center">
+    <div className="relative w-full h-[400px] flex items-center justify-center bg-[#0d0d0d] text-white text-center">
       <div className="absolute inset-0">
         <Image
           src="/tecnico.jpg" 
@@ -18,7 +18,7 @@ const Tecnico = () => {
         <p className="mt-4 text-lg md:text-2xl">
           Lo revisamos en el momento, te realizamos un diagnóstico completo y en pocas horas lo tenés como nuevo.
         </p>
-        <button className="mt-6 px-6 py-3 bg-sky-900 hover:bg-blue-700 text-white font-semibold rounded-lg transition">
+        <button className="mt-6 px-6 py-3 bg-blue-400 hover:bg-blue-700 text-white font-semibold rounded-lg transition">
           Cotizar ahora
         </button>
       </div>
