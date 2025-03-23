@@ -12,6 +12,7 @@ import Footer from "@/components/footer/Footer";
 import Testimonios from "@/components/testimonios/Testimonios";
 import Marcas from "@/components/marcas/Marcas";
 import Boton from "@/components/Boton";
+import FormasPago from "@/components/formaspago/FormasPago";
 
 export default function Home() {
   useEffect(() => {
@@ -34,6 +35,7 @@ export default function Home() {
       <Tecnico />
       <Marcas />
       <Testimonios />
+      <FormasPago />
       <Footer />
       <Boton />
     </main>

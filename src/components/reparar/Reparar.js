@@ -15,7 +15,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Pantallas Rotas</span>
+              <span className="text-white text-lg">Pantallas Rotas? Display con rayas?</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -23,7 +23,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Vidrio Templado</span>
+              <span className="text-white text-lg">Vidrio Templado rallado o roto?</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -31,7 +31,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Equipos mojados</span>
+              <span className="text-white text-lg">Equipos mojados? No encienden?</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -39,7 +39,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Batería dañada</span>
+              <span className="text-white text-lg">Batería dañada, No carga? Dura Poco?</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -47,7 +47,7 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Pin de carga</span>
+              <span className="text-white text-lg">Pin de carga? Tienes que presionarlo?</span>
             </li>
             <li className="flex items-center text-lg">
               <span className="text-blue-500 text-2xl mr-3">
@@ -55,12 +55,12 @@ const Reparar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                 </svg>
               </span>
-              <span className="text-white text-lg">Periféricos</span>
+              <span className="text-white text-lg">Periféricos? No se escucha?</span>
             </li>
           </ul>
         </div>
 
-        <div className="mt-6 md:mt-0 md:w-1/2 flex justify-center md:justify-start">
+        <div className="mt-6 md:mt-2 md:w-1/2 flex justify-center md:justify-start">
           <Image
             src="/hero.jpg"
             alt="Servicio de reparación"

@@ -34,7 +34,7 @@ const items = [
 
 const Footer = () => {
   return (
-    <div className='w-full mt-12 text-gray-300 py-y px-8'>
+    <div className='w-full mt-12 bg-[#121212] py-y px-8'>
         <br></br>
         <span>
         <Image src='/logos.png' alt='logo' width={100} height={100} className='rounded-md text-center mx-auto mb-6 object-contain'/>

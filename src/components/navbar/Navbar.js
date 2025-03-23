@@ -17,9 +17,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-[#01020d] fixed top-0 left-0 z-50 shadow-md">
+    <div className="w-full bg-[#0d0d0d] fixed top-0 left-0 z-50 shadow-md">
       <div className="flex justify-between items-center px-4 md:px-32 py-4">
-        {/* Logo */}
         <div className="flex items-center">
           <Image src="/logos.png" alt="Logo" width={60} height={60} />
           <h1 className="text-white text-xl md:text-3xl ml-4 font-bold">
@@ -27,7 +26,6 @@ const Navbar = () => {
           </h1>
         </div>
 
-        {/* Menú Desktop */}
         <nav className="hidden md:flex items-center gap-6 text-blue-300 text-lg font-bold">
           <Link href="/" className="hover:text-blue-500 transition">Home</Link>
           <Link href="#mi" className="hover:text-blue-500 transition">Sobre Mi</Link>
@@ -35,7 +33,6 @@ const Navbar = () => {
           <Link href="#footer" className="hover:text-blue-500 transition">Contacto</Link>
         </nav>
 
-        {/* Botón Menú Móvil */}
         <div className="md:hidden text-white">
           {menu ? (
             <IoClose size={30} onClick={handleChange} className="cursor-pointer" />
@@ -45,13 +42,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Menú Móvil Mejorado */}
       <div
         className={`${
           menu ? "translate-x-0" : "-translate-x-full"
         } md:hidden fixed bg-[#01020d] text-blue-300 top-0 left-0 w-full h-[50vh] flex flex-col items-center justify-center gap-6 text-2xl transition-transform duration-300 z-50`}
       >
-        {/* Botón de Cerrar Menú */}
         <button onClick={closeMenu} className="absolute top-4 right-6 text-white text-3xl">
           <IoClose />
         </button>

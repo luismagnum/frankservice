@@ -84,7 +84,7 @@ const Testimonios = () => {
             <div className='bg-black/30'>
                 <div className="container">
                     <div data-aos="fade-up" className='text-center py-5 mb-12'>
-                        <h1 className='text-3xl md:text-5xl text-white font-bold'>Testimonios</h1>
+                        <h1 className='text-3xl md:text-5xl text-white font-bold'>Esto dicen de nosotros</h1>
                     </div>
                     <div data-aos="zoom-in">
                         <Slider {...settings}>
