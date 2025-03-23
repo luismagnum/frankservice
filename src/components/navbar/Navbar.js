@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Image src="/logos.png" alt="Logo" width={60} height={60} />
           <h1 className="text-white text-xl md:text-3xl ml-4 font-bold">
-            Frank Perez
+            <span className="text-blue-300">Frank</span> Perez
           </h1>
         </div>
 

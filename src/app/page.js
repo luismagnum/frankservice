@@ -13,6 +13,7 @@ import Testimonios from "@/components/testimonios/Testimonios";
 import Marcas from "@/components/marcas/Marcas";
 import Boton from "@/components/Boton";
 import FormasPago from "@/components/formaspago/FormasPago";
+import Garantia from "@/components/garantia/Garantia";
 
 export default function Home() {
   useEffect(() => {
@@ -33,6 +34,7 @@ export default function Home() {
       <Reparar />
       </div>
       <Tecnico />
+      <Garantia />
       <Marcas />
       <Testimonios />
       <FormasPago />

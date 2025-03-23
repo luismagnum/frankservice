@@ -19,8 +19,8 @@ const Hero = () => {
 
       {/* Contenido */}
       <div className="max-w-2xl text-white text-center md:text-left mt-10 md:mt-0">
-        <h2 className="text-base py-2 md:py-6 md:text-5xl text-white">
-          Smartphone
+        <h2 className="text-base font-bold py-2 md:py-6 md:text-5xl text-white">
+          ¿Que le paso a tu celular?
         </h2>
         <h1 className="text-4xl md:text-8xl font-bold">
           Frank <span className="text-blue-400">Services</span>
