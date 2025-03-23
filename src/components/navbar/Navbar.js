@@ -1,71 +1,68 @@
-"use client"
-import Link from 'next/link'
-import Image from "next/image"
-import React, { useState } from 'react';
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import React, { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
-
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
-  const handleChange = () =>{
+  const handleChange = () => {
     setMenu(!menu);
-  }
+  };
 
-  const closeMenu = () =>{
+  const closeMenu = () => {
     setMenu(false);
-  }
+  };
+
   return (
-    <div className='w-full z-50'>
-      <div>
-        <div className='flex flex-row justify-between md:px-32 px-2 py-2 md:py-2'>
-            <div className='flex flex-row items-center cursor-pointer'>
-                <span>
-                <Image src='/logos.png' alt='logo' width={60} height={60}/>
-                </span>
-                <h1 className='text-white text-xl md:text-3xl ml-4 mb-2 font-bold'>Frank Perez</h1>
-            </div>
-            <nav className='hidden md:flex flex-row items-center text-blue-400 !important" text-xl ml-60 font-bold gap-6'>
-                <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer'>
-                 Home
-                 </Link>
-                <Link href='#mi' className='hover:text-blue-700 transition-all cursor-pointer'>
-                 Sobre Mi
-                 </Link>
-                <Link href='#reparar' className='hover:text-blue-700 transition-all cursor-pointer'>
-                 Servicios
-                </Link>
-                <Link href='#footer' className='hover:text-blue-700 transition-all cursor-pointer'>
-                 Contacto
-                </Link>
-            </nav>
-            <div className='md:hidden flex items-center text-white'>
-                {menu ? (
-                    <IoClose size={25} onClick={handleChange} className='cursor-pointer'/>
-                ):(
-                    <TiThMenu size={25} onClick={handleChange} className='cursor-pointer'/>
-                )}
-            </div>
+    <div className="w-full bg-[#01020d] fixed top-0 left-0 z-50 shadow-md">
+      <div className="flex justify-between items-center px-4 md:px-32 py-4">
+        {/* Logo */}
+        <div className="flex items-center">
+          <Image src="/logos.png" alt="Logo" width={60} height={60} />
+          <h1 className="text-white text-xl md:text-3xl ml-4 font-bold">
+            Frank Perez
+          </h1>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-[#01020d] text-blue-400 left-0 top-12 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300 z-50`}>
-        <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
-                 Home
-                 </Link>
-                 <Link href='#mi' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
-                 Sobre Mi 
-                 </Link>
-                <Link href='#reparar' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
-                 Servicios
-                </Link>
-                <Link href='#footer' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
-                  Contacto
-                </Link>
+
+        {/* Menú Desktop */}
+        <nav className="hidden md:flex items-center gap-6 text-blue-300 text-lg font-bold">
+          <Link href="/" className="hover:text-blue-500 transition">Home</Link>
+          <Link href="#mi" className="hover:text-blue-500 transition">Sobre Mi</Link>
+          <Link href="#reparar" className="hover:text-blue-500 transition">Servicios</Link>
+          <Link href="#footer" className="hover:text-blue-500 transition">Contacto</Link>
+        </nav>
+
+        {/* Botón Menú Móvil */}
+        <div className="md:hidden text-white">
+          {menu ? (
+            <IoClose size={30} onClick={handleChange} className="cursor-pointer" />
+          ) : (
+            <TiThMenu size={30} onClick={handleChange} className="cursor-pointer" />
+          )}
         </div>
-        </div>
+      </div>
+
+      {/* Menú Móvil Mejorado */}
+      <div
+        className={`${
+          menu ? "translate-x-0" : "-translate-x-full"
+        } md:hidden fixed bg-[#01020d] text-blue-300 top-0 left-0 w-full h-[50vh] flex flex-col items-center justify-center gap-6 text-2xl transition-transform duration-300 z-50`}
+      >
+        {/* Botón de Cerrar Menú */}
+        <button onClick={closeMenu} className="absolute top-4 right-6 text-white text-3xl">
+          <IoClose />
+        </button>
+
+        <Link href="/" onClick={closeMenu} className="hover:text-blue-500 transition">Home</Link>
+        <Link href="#mi" onClick={closeMenu} className="hover:text-blue-500 transition">Sobre Mi</Link>
+        <Link href="#reparar" onClick={closeMenu} className="hover:text-blue-500 transition">Servicios</Link>
+        <Link href="#footer" onClick={closeMenu} className="hover:text-blue-500 transition">Contacto</Link>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar;
- 

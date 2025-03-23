@@ -2,9 +2,9 @@ import Slider from 'react-slick';
 import Image from 'next/image';
 import BgImage from '../../../public/testi.jpg';
 
-import Imagen1 from '../../../public/logo.png';
-import Imagen2 from '../../../public/logo.png';
-import Imagen3 from '../../../public/logo.png';
+import Imagen1 from '../../../public/logos.png';
+import Imagen2 from '../../../public/logos.png';
+import Imagen3 from '../../../public/logos.png';
 
 const BgStyle = {
     backgroundImage: `url(${BgImage.src})`,
